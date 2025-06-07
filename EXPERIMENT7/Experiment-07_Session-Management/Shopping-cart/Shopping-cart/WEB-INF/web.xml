@@ -1,0 +1,21 @@
+<web-app>
+  <servlet>
+    <servlet-name>AddProduct</servlet-name>
+    <servlet-class>servlets.ProductServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AddProduct</servlet-name>
+    <url-pattern>/addProduct</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ViewCart</servlet-name>
+    <servlet-class>servlets.CartServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ViewCart</servlet-name>
+    <url-pattern>/viewCart</url-pattern>
+  </servlet-mapping>
+</web-app>

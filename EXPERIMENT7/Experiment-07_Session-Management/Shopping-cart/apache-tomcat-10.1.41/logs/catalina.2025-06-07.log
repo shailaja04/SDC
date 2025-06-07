@@ -1,0 +1,423 @@
+07-Jun-2025 10:45:03.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.41
+07-Jun-2025 10:45:03.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2025 12:44:02 UTC
+07-Jun-2025 10:45:03.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.41.0
+07-Jun-2025 10:45:03.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Jun-2025 10:45:03.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Jun-2025 10:45:03.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Jun-2025 10:45:03.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+07-Jun-2025 10:45:03.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+07-Jun-2025 10:45:03.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Jun-2025 10:45:03.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41
+07-Jun-2025 10:45:03.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41
+07-Jun-2025 10:45:03.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\conf\logging.properties
+07-Jun-2025 10:45:03.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jun-2025 10:45:03.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Jun-2025 10:45:03.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jun-2025 10:45:03.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+07-Jun-2025 10:45:03.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Jun-2025 10:45:03.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+07-Jun-2025 10:45:03.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Jun-2025 10:45:03.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Jun-2025 10:45:03.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Jun-2025 10:45:03.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Jun-2025 10:45:03.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41
+07-Jun-2025 10:45:03.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41
+07-Jun-2025 10:45:03.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\temp
+07-Jun-2025 10:45:03.542 WARNING [main] org.apache.catalina.core.AprLifecycleListener.init The Apache Tomcat Native library failed to load. The error reported was [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\bin\tcnative-2.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform]
+	java.lang.UnsatisfiedLinkError: C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\bin\tcnative-2.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+		at java.base/jdk.internal.loader.NativeLibraries.load(Native Method)
+		at java.base/jdk.internal.loader.NativeLibraries$NativeLibraryImpl.open(NativeLibraries.java:331)
+		at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:197)
+		at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:139)
+		at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2402)
+		at java.base/java.lang.Runtime.load0(Runtime.java:852)
+		at java.base/java.lang.System.load(System.java:2028)
+		at org.apache.tomcat.jni.Library.<init>(Library.java:39)
+		at org.apache.tomcat.jni.Library.initialize(Library.java:147)
+		at org.apache.catalina.core.AprLifecycleListener.init(AprLifecycleListener.java:211)
+		at org.apache.catalina.core.AprLifecycleListener.lifecycleEvent(AprLifecycleListener.java:143)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:121)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:712)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+07-Jun-2025 10:45:04.628 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Jun-2025 10:45:04.686 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1051)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:522)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:957)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:712)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:240)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:195)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1304)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1317)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:82)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1049)
+		... 11 more
+07-Jun-2025 10:45:04.690 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1922] milliseconds
+07-Jun-2025 10:45:04.846 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Jun-2025 10:45:04.847 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.41]
+07-Jun-2025 10:45:04.884 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\docs]
+07-Jun-2025 10:45:05.857 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\docs] has finished in [972] ms
+07-Jun-2025 10:45:05.857 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\examples]
+07-Jun-2025 10:45:07.515 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\examples] has finished in [1,657] ms
+07-Jun-2025 10:45:07.516 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\host-manager]
+07-Jun-2025 10:45:07.637 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\host-manager] has finished in [121] ms
+07-Jun-2025 10:45:07.638 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\manager]
+07-Jun-2025 10:45:07.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\manager] has finished in [121] ms
+07-Jun-2025 10:45:07.760 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\ROOT]
+07-Jun-2025 10:45:07.846 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\ROOT] has finished in [85] ms
+07-Jun-2025 10:45:07.857 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3153] milliseconds
+07-Jun-2025 10:46:55.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.41
+07-Jun-2025 10:46:55.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2025 12:44:02 UTC
+07-Jun-2025 10:46:55.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.41.0
+07-Jun-2025 10:46:55.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Jun-2025 10:46:55.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Jun-2025 10:46:55.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Jun-2025 10:46:55.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+07-Jun-2025 10:46:55.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+07-Jun-2025 10:46:55.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Jun-2025 10:46:55.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41
+07-Jun-2025 10:46:55.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41
+07-Jun-2025 10:46:55.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\conf\logging.properties
+07-Jun-2025 10:46:55.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jun-2025 10:46:55.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Jun-2025 10:46:55.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jun-2025 10:46:55.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+07-Jun-2025 10:46:55.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Jun-2025 10:46:55.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+07-Jun-2025 10:46:55.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Jun-2025 10:46:55.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Jun-2025 10:46:55.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Jun-2025 10:46:55.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Jun-2025 10:46:55.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41
+07-Jun-2025 10:46:55.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41
+07-Jun-2025 10:46:55.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\temp
+07-Jun-2025 10:46:55.894 WARNING [main] org.apache.catalina.core.AprLifecycleListener.init The Apache Tomcat Native library failed to load. The error reported was [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\bin\tcnative-2.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform]
+	java.lang.UnsatisfiedLinkError: C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\bin\tcnative-2.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+		at java.base/jdk.internal.loader.NativeLibraries.load(Native Method)
+		at java.base/jdk.internal.loader.NativeLibraries$NativeLibraryImpl.open(NativeLibraries.java:331)
+		at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:197)
+		at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:139)
+		at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2402)
+		at java.base/java.lang.Runtime.load0(Runtime.java:852)
+		at java.base/java.lang.System.load(System.java:2028)
+		at org.apache.tomcat.jni.Library.<init>(Library.java:39)
+		at org.apache.tomcat.jni.Library.initialize(Library.java:147)
+		at org.apache.catalina.core.AprLifecycleListener.init(AprLifecycleListener.java:211)
+		at org.apache.catalina.core.AprLifecycleListener.lifecycleEvent(AprLifecycleListener.java:143)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:121)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:712)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+07-Jun-2025 10:46:56.660 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Jun-2025 10:46:56.707 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1051)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:522)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:957)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:712)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:240)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:195)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1304)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1317)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:82)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1049)
+		... 11 more
+07-Jun-2025 10:46:56.711 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1316] milliseconds
+07-Jun-2025 10:46:56.862 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Jun-2025 10:46:56.863 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.41]
+07-Jun-2025 10:46:56.897 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\docs]
+07-Jun-2025 10:46:57.893 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\docs] has finished in [995] ms
+07-Jun-2025 10:46:57.894 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\examples]
+07-Jun-2025 10:46:59.449 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\examples] has finished in [1,555] ms
+07-Jun-2025 10:46:59.450 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\host-manager]
+07-Jun-2025 10:46:59.568 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\host-manager] has finished in [117] ms
+07-Jun-2025 10:46:59.568 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\manager]
+07-Jun-2025 10:46:59.681 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\manager] has finished in [113] ms
+07-Jun-2025 10:46:59.682 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\ROOT]
+07-Jun-2025 10:46:59.753 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\ROOT] has finished in [72] ms
+07-Jun-2025 10:46:59.763 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3046] milliseconds
+07-Jun-2025 10:46:59.779 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:533)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:851)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:799)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+07-Jun-2025 10:46:59.781 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Jun-2025 10:46:59.781 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Jun-2025 10:46:59.844 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Jun-2025 10:46:59.846 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Jun-2025 11:10:14.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.41
+07-Jun-2025 11:10:14.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2025 12:44:02 UTC
+07-Jun-2025 11:10:14.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.41.0
+07-Jun-2025 11:10:14.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Jun-2025 11:10:14.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Jun-2025 11:10:14.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Jun-2025 11:10:14.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+07-Jun-2025 11:10:14.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+07-Jun-2025 11:10:14.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Jun-2025 11:10:14.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41
+07-Jun-2025 11:10:14.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41
+07-Jun-2025 11:10:14.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\conf\logging.properties
+07-Jun-2025 11:10:14.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jun-2025 11:10:14.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Jun-2025 11:10:14.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jun-2025 11:10:14.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+07-Jun-2025 11:10:14.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Jun-2025 11:10:14.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+07-Jun-2025 11:10:14.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Jun-2025 11:10:14.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Jun-2025 11:10:14.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Jun-2025 11:10:14.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Jun-2025 11:10:14.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41
+07-Jun-2025 11:10:14.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41
+07-Jun-2025 11:10:14.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\temp
+07-Jun-2025 11:10:14.642 WARNING [main] org.apache.catalina.core.AprLifecycleListener.init The Apache Tomcat Native library failed to load. The error reported was [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\bin\tcnative-2.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform]
+	java.lang.UnsatisfiedLinkError: C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\bin\tcnative-2.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+		at java.base/jdk.internal.loader.NativeLibraries.load(Native Method)
+		at java.base/jdk.internal.loader.NativeLibraries$NativeLibraryImpl.open(NativeLibraries.java:331)
+		at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:197)
+		at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:139)
+		at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2402)
+		at java.base/java.lang.Runtime.load0(Runtime.java:852)
+		at java.base/java.lang.System.load(System.java:2028)
+		at org.apache.tomcat.jni.Library.<init>(Library.java:39)
+		at org.apache.tomcat.jni.Library.initialize(Library.java:147)
+		at org.apache.catalina.core.AprLifecycleListener.init(AprLifecycleListener.java:211)
+		at org.apache.catalina.core.AprLifecycleListener.lifecycleEvent(AprLifecycleListener.java:143)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:121)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:712)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+07-Jun-2025 11:10:15.206 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Jun-2025 11:10:15.238 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1051)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:522)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:957)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:712)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:240)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:195)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1304)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1317)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:82)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1049)
+		... 11 more
+07-Jun-2025 11:10:15.239 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1003] milliseconds
+07-Jun-2025 11:10:15.329 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Jun-2025 11:10:15.329 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.41]
+07-Jun-2025 11:10:15.354 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\docs]
+07-Jun-2025 11:10:15.856 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\docs] has finished in [501] ms
+07-Jun-2025 11:10:15.857 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\examples]
+07-Jun-2025 11:10:16.794 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\examples] has finished in [937] ms
+07-Jun-2025 11:10:16.794 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\host-manager]
+07-Jun-2025 11:10:16.883 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\host-manager] has finished in [89] ms
+07-Jun-2025 11:10:16.883 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\manager]
+07-Jun-2025 11:10:16.975 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\manager] has finished in [91] ms
+07-Jun-2025 11:10:16.975 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\ROOT]
+07-Jun-2025 11:10:17.028 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\ROOT] has finished in [53] ms
+07-Jun-2025 11:10:17.035 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1794] milliseconds
+07-Jun-2025 11:10:17.047 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:533)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:851)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:799)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+07-Jun-2025 11:10:17.048 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Jun-2025 11:10:17.048 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Jun-2025 11:10:17.077 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Jun-2025 11:10:17.078 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Jun-2025 11:14:41.130 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\Shopping-cart]
+07-Jun-2025 11:14:41.184 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\Shopping-cart] has finished in [55] ms
+07-Jun-2025 11:18:21.469 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Shopping-cart]
+07-Jun-2025 11:18:21.470 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Shopping-cart] has started
+07-Jun-2025 11:18:21.563 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Shopping-cart] is completed
+07-Jun-2025 11:19:32.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.41
+07-Jun-2025 11:19:32.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2025 12:44:02 UTC
+07-Jun-2025 11:19:32.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.41.0
+07-Jun-2025 11:19:32.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Jun-2025 11:19:32.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Jun-2025 11:19:32.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Jun-2025 11:19:32.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+07-Jun-2025 11:19:32.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+07-Jun-2025 11:19:32.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Jun-2025 11:19:32.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41
+07-Jun-2025 11:19:32.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41
+07-Jun-2025 11:19:32.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\conf\logging.properties
+07-Jun-2025 11:19:32.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jun-2025 11:19:32.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Jun-2025 11:19:32.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jun-2025 11:19:32.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+07-Jun-2025 11:19:32.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Jun-2025 11:19:32.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+07-Jun-2025 11:19:32.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Jun-2025 11:19:32.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Jun-2025 11:19:32.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Jun-2025 11:19:32.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Jun-2025 11:19:32.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41
+07-Jun-2025 11:19:32.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41
+07-Jun-2025 11:19:32.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\temp
+07-Jun-2025 11:19:32.432 WARNING [main] org.apache.catalina.core.AprLifecycleListener.init The Apache Tomcat Native library failed to load. The error reported was [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\bin\tcnative-2.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform]
+	java.lang.UnsatisfiedLinkError: C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\bin\tcnative-2.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+		at java.base/jdk.internal.loader.NativeLibraries.load(Native Method)
+		at java.base/jdk.internal.loader.NativeLibraries$NativeLibraryImpl.open(NativeLibraries.java:331)
+		at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:197)
+		at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:139)
+		at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2402)
+		at java.base/java.lang.Runtime.load0(Runtime.java:852)
+		at java.base/java.lang.System.load(System.java:2028)
+		at org.apache.tomcat.jni.Library.<init>(Library.java:39)
+		at org.apache.tomcat.jni.Library.initialize(Library.java:147)
+		at org.apache.catalina.core.AprLifecycleListener.init(AprLifecycleListener.java:211)
+		at org.apache.catalina.core.AprLifecycleListener.lifecycleEvent(AprLifecycleListener.java:143)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:121)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:712)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+07-Jun-2025 11:19:32.923 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Jun-2025 11:19:32.951 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1051)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:522)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:957)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:712)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:240)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:195)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1304)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1317)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:82)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1049)
+		... 11 more
+07-Jun-2025 11:19:32.952 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [816] milliseconds
+07-Jun-2025 11:19:33.026 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Jun-2025 11:19:33.027 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.41]
+07-Jun-2025 11:19:33.047 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\docs]
+07-Jun-2025 11:19:33.547 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\docs] has finished in [499] ms
+07-Jun-2025 11:19:33.548 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\examples]
+07-Jun-2025 11:19:34.701 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\examples] has finished in [1,153] ms
+07-Jun-2025 11:19:34.702 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\host-manager]
+07-Jun-2025 11:19:34.811 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\host-manager] has finished in [109] ms
+07-Jun-2025 11:19:34.812 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\manager]
+07-Jun-2025 11:19:34.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\manager] has finished in [94] ms
+07-Jun-2025 11:19:34.908 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\ROOT]
+07-Jun-2025 11:19:34.976 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\ROOT] has finished in [68] ms
+07-Jun-2025 11:19:34.976 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\Shopping-cart]
+07-Jun-2025 11:19:35.097 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\OneDrive\Desktop\SDC\EXPERIMENTS\7experiment\Experiment-07_Session-Management\Shopping-cart\apache-tomcat-10.1.41\webapps\Shopping-cart] has finished in [121] ms
+07-Jun-2025 11:19:35.105 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2151] milliseconds
+07-Jun-2025 11:19:35.119 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:533)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:851)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:799)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+07-Jun-2025 11:19:35.120 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Jun-2025 11:19:35.120 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Jun-2025 11:19:35.156 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Jun-2025 11:19:35.157 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Jun-2025 13:06:43.644 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Shopping-cart]
+07-Jun-2025 13:06:43.712 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Shopping-cart] has started
+07-Jun-2025 13:06:44.243 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Shopping-cart] is completed

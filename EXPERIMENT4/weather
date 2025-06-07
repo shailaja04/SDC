@@ -1,0 +1,64 @@
+<!-- Program 4: Explore the features of ES6 like arrow functions, callbacks, promises, async/await. Implement an application for reading the weather information from openweathermap.org and display the information in the form of a graph on the web page
+Aim: Explore the features of ES6 like arrow functions, callbacks, promises, async/await. Implement an application for reading the weather information from openweathermap.org and display the information in the form of a graph on the web page
+
+In this example, we use arrow functions for concise and readable code, async/await to handle asynchronous API requests, and promises for error handling. We fetch weather data from the openweathermap.org API, extract the relevant information, and render it as a bar chart using the Chart.js library. The weather information displayed includes temperature, pressure, and humidity for a specified city (in this case, London). Note that you need to replace 'YOUR_API_KEY' with your actual openweathermap.org API key in order to make the API requests successfully.
+
+Here's an example implementation using JavaScript and Chart.js library for displaying the weather information as a bar chart.
+
+HTML: -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weather Graph</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chart.js">
+</head>
+<body>
+<h1>Weather Information</h1>
+<canvas id="weatherChart" width="400" height="200"></canvas>
+<script src="weather.js"></script>
+</body>
+</html>
+
+<!-- JavaScript (weather.js):
+// Define API endpoint and API key -->
+const apiUrl = 'https://api.openweathermap.org/data/2.5/weather';
+const apiKey = 'YOUR_API_KEY'; 
+<!-- // Replace with your openweathermap.org API key
+
+// Fetch weather data from API -->
+const fetchWeatherData = async (city) => { try {
+const response = await fetch(`${apiUrl}?q=${city}&appid=${apiKey}`); if (!response.ok) {
+throw new Error('Failed to fetch weather data');
+}
+const data = await response.json(); return data;
+} catch (error) { console.error(error);
+}
+};
+
+<!-- // Render weather graph using Chart.js -->
+const renderWeatherGraph = (weatherData) => {
+    
+
+const ctx = document.getElementById('weatherChart').getContext('2d'); const labels = ['Temperature (°C)', 'Pressure (hPa)', 'Humidity (%)']; const data = [
+weatherData.main.temp, weatherData.main.pressure, weatherData.main.humidity
+];
+const chart = new Chart(ctx, { type: 'bar',
+data: { labels, datasets: [{ data,
+backgroundColor: 'rgba(75, 192, 192, 0.6)',
+borderColor: 'rgba(75, 192, 192, 1)',
+borderWidth: 1
+}]
+},
+options: { scales: { y: {
+beginAtZero: true
+}
+}
+}
+});
+};
+
+<!-- // Fetch weather data for a city and render graph -->
+const city = 'London'; // Replace with the city for which you want to fetch weather data fetchWeatherData(city)
+.then(weatherData => renderWeatherGraph(weatherData))
+.catch(error => console.error(error));
+

@@ -1,0 +1,48 @@
+
+
+<!-- Program 3: Use JavaScript for doing client – side validation of the pages implemented in experiment 1 andexperiment 2.
+Aim: Use JavaScript for doing client – side validation of the pages implemented in experiment 1 andexperiment 2.
+
+client-side validation using JavaScript for a simple registration page. -->
+HTML PATH:
+<section id="register">
+<h2>Register</h2>
+<form id="registrationForm">
+<input type="text" id="nameInput" placeholder="Name" required><br>
+<br>
+
+<input type="email" id="emailInput" placeholder="Email" required>
+<br>
+<br>
+<input type="password" id="passwordInput" placeholder="Password" required>
+<br>
+<br>
+<button type="submit">Register</button><br>
+<br>
+</form>
+</section>
+
+<!-- CSS CODE:
+/* Existing CSS styles */
+
+JAVA SCRIPT CODE:
+// Client-side validation for registration form document.getElementById('registrationForm').addEventListener('submit', function(event) {
+event.preventDefault();
+const nameInput = document.getElementById('nameInput'); const emailInput = document.getElementById('emailInput');
+const passwordInput = document.getElementById('passwordInput');
+// Validate name
+if (nameInput.value.trim() === '') { alert('Please enter your name.'); nameInput.focus();
+return;
+}
+// Validate email
+const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; if (!emailPattern.test(emailInput.value)) {
+alert('Please enter a valid email address.'); emailInput.focus();
+return;
+}
+// Validate password
+if (passwordInput.value.length < 6) { alert('Password must be at least 6 characters.'); passwordInput.focus();
+return;
+}
+// Submit form if all validations pass alert('Registration successful!');
+// Add code to submit the form to the server for further processing
+}); -->
