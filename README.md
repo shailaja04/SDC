@@ -139,6 +139,8 @@ script.js – JavaScript using ES6 features
 2. Replace `"YOUR_API_KEY"` in `script.js` with your API key.
 3. Open index.html in a browser.
 4. Enter a city name and view the graph.
+5. ![image](https://github.com/user-attachments/assets/f7e45097-1c99-4978-a7b8-96f747842920)
+
 ## Author
 ASHWINI SHAILAJA (https://github.com/shailaja04)
 ## License
