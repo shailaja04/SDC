@@ -37,7 +37,12 @@ Just Go to GoLive option
 ASHWINI SHAILAJA (https://github.com/shailaja04)
 ## License
 This project is open-source and free to use.
-
+## Output
+![image](https://github.com/user-attachments/assets/fabf7bac-4745-4c17-b25d-4968767d29bc)
+![image](https://github.com/user-attachments/assets/045c7187-9032-4a57-8b38-67d8b0a6d758)
+![image](https://github.com/user-attachments/assets/999f3422-af76-4167-8a66-869f43f679b3)
+![image](https://github.com/user-attachments/assets/945c78bc-cdea-43c2-9144-73c9362e1338)
+![image](https://github.com/user-attachments/assets/c468f15f-74d7-4e7f-9732-89508472f2f9)
 
 ## Experiment 2
 # Aim: Responsive Shopping Cart Web Application using Bootstrap
@@ -68,6 +73,9 @@ Just Go to GoLive option
 ASHWINI SHAILAJA (https://github.com/shailaja04)
 ## License
 This project is open-source and free to use.
+## Output
+![image](https://github.com/user-attachments/assets/34724808-0b21-4754-ac40-63c927540d5d)
+![image](https://github.com/user-attachments/assets/dae868a7-b778-409a-b64f-74878a910493)
 
 ## Experiment 3
 # Aim: Shopping Cart Web Application with Client-Side Validation
@@ -107,6 +115,8 @@ using JS.
 ASHWINI SHAILAJA (https://github.com/shailaja04)
 ## License
 This project is open-source and free to use.
+## Output
+![image](https://github.com/user-attachments/assets/4fdb15be-a7de-45c2-86a8-f8332764373f)
 
 ## Experiment 4
 # Aim: Weather Info App using ES6 and OpenWeatherMap API
@@ -140,11 +150,13 @@ script.js – JavaScript using ES6 features
 3. Open index.html in a browser.
 4. Enter a city name and view the graph.
 5. ![image](https://github.com/user-attachments/assets/f7e45097-1c99-4978-a7b8-96f747842920)
-
 ## Author
 ASHWINI SHAILAJA (https://github.com/shailaja04)
 ## License
 This project is open-source and free to use.
+## Output
+![image](https://github.com/user-attachments/assets/009dd3f1-3bce-47c6-ab2e-ed5a846f1955)
+![image](https://github.com/user-attachments/assets/cf5ecdd1-24d7-4146-a43a-06bf1112a38c)
 
 ## Experiment 5
 # Aim: Java Standalone CRUD Application with Database
@@ -188,6 +200,8 @@ java CRUDApp
 ASHWINI SHAILAJA (https://github.com/shailaja04)
 ## License
 This project is open-source and free to use.
+## Output
+![image](https://github.com/user-attachments/assets/9b3ffc31-6457-4cfd-86a2-498099124c99)
 
 ## Experiment 6
 # Aim: Shopping Cart App with Servlet & DB Integration
@@ -213,6 +227,9 @@ This project adds Servlet controllers to the shopping cart app (Exp 1), enabling
 3. Access at `http://localhost:8080/YourApp/`
 ## Author
 ASHWINI SHAILAJA (https://github.com/shailaja04)
+## Output
+![image](https://github.com/user-attachments/assets/42327668-2453-4eba-8f89-a348c597a9f6)
+![image](https://github.com/user-attachments/assets/f337c543-d82b-4448-81a6-6468580e22a1)
 
 ## Experiment 7
 ## Aim: Session Tracking in Web Applications
@@ -240,6 +257,10 @@ HttpSession: Server-side user tracking with `HttpSession` object
 3. Check how session or cookies maintain user info
 ## Author
 ASHWINI SHAILAJA (https://github.com/shailaja04)
+## Output
+![image](https://github.com/user-attachments/assets/d650e1e9-d521-4fd3-b389-d558ef97af9c)
+![image](https://github.com/user-attachments/assets/40e1a533-dd52-4107-bb45-25e922f064fc)
+
 
 ***Nodejs***
 
@@ -265,6 +286,8 @@ This project demonstrates how to create a custom HTTP server using Node.js and e
 3. Run:
    node server.js
 4.Visit http://localhost:3000 in browser
+## Output
+![image](https://github.com/user-attachments/assets/01fe7040-aa89-4d07-a9f9-27c90f4300a9)
 
 ## Experiment 9
 # Aim: Express REST API for Student Data CRUD
@@ -296,6 +319,8 @@ You can test the API endpoints using **Postman**.
 3. Start the server:
    node app.js
    Use Postman to test the API at http://localhost:3000
+## Output
+![image](https://github.com/user-attachments/assets/34526210-0883-4f9b-b0f6-bf9d2146cb82)
 
 ## Experiment 10
 # Aim: Express REST API with JWT Authentication
@@ -330,6 +355,13 @@ It uses **JWT (JSON Web Tokens)** to protect authorized endpoints. API testing c
 3. Use Postman:
 First call /login to get the token
 Add Authorization: Bearer <token> in headers for all other requests
+## Output
+{
+"id": "1717682112345",
+"name": "Alice",
+"age": 22,
+"course": "B.Tech"
+}
 
 ## Experiment 11
 # Aim: React Student Management System
@@ -359,6 +391,8 @@ Routing is implemented using React Router.
 3. Start the app:
    npm start
    Open http://localhost:3000 in your browser
+## Output
+![image](https://github.com/user-attachments/assets/a4c85e67-58ee-4c5c-aa95-046a7dfba3d7)
 
 ## Experiment 12
 # React Weather App with Chart.js
@@ -388,6 +422,10 @@ cd react-weather-app
 npm install axios chart.js react-chartjs-2
 npm start
 Then open: http://localhost:3000
+## Output
+![image](https://github.com/user-attachments/assets/54464db7-5def-471b-8328-49e46ff11185)
+![image](https://github.com/user-attachments/assets/7a0757fa-4238-4de5-9b14-0def01fe42f2)
+![image](https://github.com/user-attachments/assets/a173a544-c950-4644-a5ce-9c35744ca37b)
 
 ## Experiment 13
 # Aim: React TODO App
@@ -423,6 +461,9 @@ In package.json, add:
 }
 Deploy:
 npm run deploy
+## Output
+![image](https://github.com/user-attachments/assets/415e563e-0708-474f-a517-e5e865285897)
+![image](https://github.com/user-attachments/assets/2071c8ba-cd67-4ff0-ac85-ccfb983f1bc5)
 
 ## Experiment 14
 # Aim:Django Student Management System
@@ -455,6 +496,12 @@ python manage.py startapp students
 3.Run server
 python manage.py runserver
 4.Visit http://localhost:8000
+## Output
+![image](https://github.com/user-attachments/assets/58796211-6757-4106-a665-b7e3b2c2742d)
+![image](https://github.com/user-attachments/assets/33a077f2-c3b9-4b07-9415-5afe8dd98a23)
+![image](https://github.com/user-attachments/assets/f7a6f001-b3a5-4c88-9425-9381726166aa)
+![image](https://github.com/user-attachments/assets/f3458d34-cec9-4057-8be2-cce8b8776cb1)
+![image](https://github.com/user-attachments/assets/40355f52-3ce1-420b-b32a-d24e89e8c33f)
 
 ## Experiment 15
 # Aim: Django Weather App with Chart.js
@@ -483,6 +530,8 @@ A Django application that fetches weather data (current and historical) from Ope
 pip install django requests
 python manage.py runserver
 #  Visit: http://localhost:8000/weather/
+## Output
+![image](https://github.com/user-attachments/assets/6e94e498-27c2-4307-901c-8c87268a5c0a)
 
 ## Experiment 16
 # Aim: Django TODO Application
@@ -525,6 +574,8 @@ git remote add origin https://github.com/yourusername/django-todo-app.git
 git add .
 git commit -m "Initial commit"
 git push -u origin main
+## Output
+![image](https://github.com/user-attachments/assets/9e1be989-c90b-4782-9ae8-0498ff084d9f)
 
 
 
